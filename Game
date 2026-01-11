@@ -1,0 +1,33 @@
+
+
+
+print("Hi Gamer! Welcome!!")
+name = input('What\'s your name?')
+print('Hi '+ name)
+answer = input('Are you ready for a random GK Quiz?')
+
+if answer == 'no':
+    quit()
+
+if answer == 'yes':
+    print('Please type your answers in small letters. Let\'s start!')
+score = 0
+
+answer = input('Where does Jethalal Gada live?')
+if answer.lower() == 'gokuldham society':
+    print('Correct!')
+    score += 1
+else: 
+    print("Wronggg. Try again. Next one")
+
+answer = input('Who is the author of Harry Potter series?')
+if answer.lower() == 'j.k rowling':
+    print('Correct!')
+    score += 1
+else:
+     print("Wronggg. Try again. Next one")   
+
+print("You score is " + str(score) )
+
+
+        

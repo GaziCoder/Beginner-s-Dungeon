@@ -1,0 +1,15 @@
+print('Hello User!')
+
+k = input('What is your name: ')
+l = int(input('What is your age:  '))
+year = 2022 - l + 100
+print(k + ' your age in 100 years will be ' + str(year))
+
+import datetime
+user = str(input("What's your name? "))
+age = int(input("How old are you? "))
+
+print("Hi " +user+ ". You will be 100 years old in " + str(datetime.datetime. today().year - age + 100)+ "!")
+
+num = int(input("Give me a number! "))
+print( num * str("You'll be 100 in " + str(datetime.datetime.today().year - age + 100)+"!\n"))
